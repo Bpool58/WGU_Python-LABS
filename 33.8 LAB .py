@@ -1,3 +1,24 @@
+"""
+Write a program with total change amount as an integer input,
+and output the change using the fewest coins,one coin type per line.
+The coin types are Dollars, Quarters, Dimes, Nickels, and Pennies.
+Use singular and plural coin names as appropriate, like 1 Penny vs. 2 Pennies.
+
+Ex: If the input is:
+
+0
+(or less than 0), the output is:
+
+No change
+Ex: If the input is:
+
+45
+the output is:
+
+1 Quarter
+2 Dimes
+"""
+
 # Initialize variables to store the count of each coin type
 # We start with 0 for each type as we haven't calculated anything yet
 dollars = 0    # Will store number of dollar coins (100 cents each)
