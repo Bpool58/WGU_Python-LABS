@@ -16,7 +16,7 @@ Additionally, output a safety comment only during the following circumstances:
 
 If the water is exactly 212° F, the safety comment is "Caution: Hot!"
 If the water temperature is less than 33° F, the safety comment is "Watch out for ice!"
-The solution output should be in the format
+The solution output should be in the format:
 
 water_state
 optional_safety_comment
