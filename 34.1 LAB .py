@@ -1,9 +1,4 @@
 """
-Instructions:
-Create a Python solution to the following task.
-Ensure that the solution produces output in exactly the same format shown in the sample(s) below,
- including capitalization and whitespace.
-
 Task:
 Create a solution that accepts three integer inputs representing the number of times an employee travels to a job site.
 Output the total distance traveled to two decimal places given the following miles per employee commute to the job site.
