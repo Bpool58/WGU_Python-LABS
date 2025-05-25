@@ -12,10 +12,12 @@ printFirst('WGU College of IT', 11)
 #%% md
 # ## Understanding String Indices
 # Let's see how Python indexes string characters:
-#%%
-- Index starts at 0
-- Spaces count as characters
-- Slicing gets characters from start index up to (but not including) end index
+#%%"""
+
+
+# - Index starts at 0
+# - Spaces count as characters
+# - Slicing gets characters from start index up to (but not including) end index
 #%%
 print("Example 1: First 2 characters of 'Python'")
 print("Expected: 'Py'")

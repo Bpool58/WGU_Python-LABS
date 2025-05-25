@@ -1,8 +1,4 @@
 """
-Instructions:
-Create a Python solution to the following task.
- Ensure that the solution produces output in exactly the same format shown in the sample(s) below,
-  including capitalization and whitespace.
 Task:
 Create a solution that accepts a string input representing a grocery store item
  and an integer input identifying the number of items purchased on a recent visit.
@@ -36,6 +32,7 @@ if Num_of_items >= 21:
 # 5% discount for 10-20 items (inclusive)
 elif Num_of_items >= 10:
     total_price = total_price * 0.95
+f
 # No discount for fewer than 10 items (no else needed as price stays the same)
 
 # Print the result in required format: "item_purchased $total_purchase_cost"

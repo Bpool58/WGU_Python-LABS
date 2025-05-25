@@ -1,66 +1,62 @@
-# Import the csv module - this is a built-in Python module that helps work with CSV (Comma Separated Values) files
-# CSV files are text files where data is separated by commas
-import csv
+import csv                   # Step 1: Import the csv module to handle CSV files
 
-# Get the filename from user using input()
-# input() reads a line of text from the user and returns it as a string
-# The program will wait here until the user enters something and presses Enter
-filename = input()
+filename = input()          # Step 2: Get filename from user input (e.g., "input1.csv")
 
-# Create an empty list that will store our dictionaries
-# We need this because we'll create one dictionary for each row in the CSV file
-# Using [] creates an empty list
-rows_as_dicts = []
-
-# Open the CSV file for reading
-# 'with' statement is used to properly handle opening and closing the file
-# 'r' means we're opening the file in read mode
-# 'file' is the variable that will hold our opened file object
-with open(filename, 'r') as file:
-    # Create a CSV reader object using csv.reader()
-    # This object knows how to read and parse CSV formatted data
-    # It will automatically handle the commas and line breaks in the CSV file
-    csv_reader = csv.reader(file)
+with open(filename) as file: # Step 3: Open the file (the 'with' ensures file is properly closed)
+    csv_reader = csv.reader(file)  # Step 4: Create a CSV reader object
     
-    # Loop through each row in the CSV file
-    # csv_reader will give us one row at a time
-    # Each row is a list of strings
-    for row in csv_reader:
-        # Create an empty dictionary for the current row
-        # This dictionary will store the key-value pairs from this row
-        # Using {} creates an empty dictionary
-        row_dict = {}
-        
-        # Loop through the items in the current row
-        # range(0, len(row), 2) creates a sequence of numbers:
-        # - starts at 0
-        # - goes up to len(row) (the length of the row)
-        # - steps by 2 (so we get 0, 2, 4, ...)
-        # This lets us get both the key and its corresponding value
-        for i in range(0, len(row), 2):
-            # Get the key from the current position (i)
-            # strip() removes any extra spaces from the beginning and end
-            key = row[i].strip()
-            
-            # Get the value from the next position (i+1)
-            # strip() removes any extra spaces from the beginning and end
-            value = row[i+1].strip()
-            
-            # Add the key-value pair to our dictionary
-            # This creates or updates the key in the dictionary with its value
-            row_dict[key] = value
-            
-        # After the inner loop finishes, we have processed all key-value pairs in this row
-        # Add the completed dictionary to our list
-        rows_as_dicts.append(row_dict)
+    # ----- HANDLING FIRST ROW -----
+    row = next(csv_reader)  # Step 5: Get first row as a list
+                           # If row is "a,100,b,200,c,300"
+                           # row becomes ['a', '100', 'b', '200', 'c', '300']
+    
+    # Create dictionary for first row
+    print({row[i]: row[i+1] for i in range(0, len(row), 2)})
+    # Let's break this line down:
+    #   range(0, len(row), 2) - creates sequence: 0, 2, 4
+    #   For each i in that sequence:
+    #     row[i]   becomes the key
+    #     row[i+1] becomes the value
+    #
+    # Detailed steps for first row:
+    # i = 0:
+    #   key   = row[0] = 'a'
+    #   value = row[1] = '100'
+    #   Adds 'a': '100' to dictionary
+    #
+    # i = 2:
+    #   key   = row[2] = 'b'
+    #   value = row[3] = '200'
+    #   Adds 'b': '200' to dictionary
+    #
+    # i = 4:
+    #   key   = row[4] = 'c'
+    #   value = row[5] = '300'
+    #   Adds 'c': '300' to dictionary
+    #
+    # Final result printed: {'a': '100', 'b': '200', 'c': '300'}
 
-# After the outer loop finishes, we have processed all rows
-# Now we print each dictionary
-
-# Print the first dictionary (index 0)
-# This corresponds to the first row of the CSV file
-print(rows_as_dicts[0])
-
-# Print the second dictionary (index 1)
-# This corresponds to the second row of the CSV file
-print(rows_as_dicts[1])
+    # ----- HANDLING SECOND ROW -----
+    row = next(csv_reader)  # Step 6: Get second row as a list
+                           # If row is "bananas,1.85,steak,19.99,cookies,4.52"
+                           # row becomes ['bananas', '1.85', 'steak', '19.99', 'cookies', '4.52']
+    
+    # Create dictionary for second row
+    print({row[i]: row[i+1] for i in range(0, len(row), 2)})
+    # Same process as above:
+    # i = 0:
+    #   key   = row[0] = 'bananas'
+    #   value = row[1] = '1.85'
+    #   Adds 'bananas': '1.85' to dictionary
+    #
+    # i = 2:
+    #   key   = row[2] = 'steak'
+    #   value = row[3] = '19.99'
+    #   Adds 'steak': '19.99' to dictionary
+    #
+    # i = 4:
+    #   key   = row[4] = 'cookies'
+    #   value = row[5] = '4.52'
+    #   Adds 'cookies': '4.52' to dictionary
+    #
+    # Final result printed: {'bananas': '1.85', 'steak': '19.99', 'cookies': '4.52'}
