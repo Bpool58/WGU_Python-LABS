@@ -27,7 +27,7 @@ Using division and modulo to break down the number:
 
 
 #ALTERNATIVE SOLUTION: USING STRING SLICING
-number = input() #Get input as a string. DO NOT CONVERT TO INTEGER
+number = input() #Get input as a string. DO NOT CONVERT TO INTEGER.
 
 first_part = number[0:3]
 second_part = number[3:5]
