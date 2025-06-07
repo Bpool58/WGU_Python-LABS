@@ -10,7 +10,7 @@ with open(filename) as file: # Step 3: Open the file (the 'with' ensures file is
                            # If row is "a,100,b,200,c,300"
                            # row becomes ['a', '100', 'b', '200', 'c', '300']
     
-    # Create dictionary for first row
+    # Create dictionary for first row.
     print({row[i]: row[i+1] for i in range(0, len(row), 2)})
     # Let's break this line down:
     #   range(0, len(row), 2) - creates sequence: 0, 2, 4
