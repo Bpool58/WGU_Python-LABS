@@ -51,4 +51,4 @@ for x in range(-10, 11):
 if solution_found:
     print(f"x = {x_solution}, y = {y_solution}")
 else:
-    print("There is no solution.")
+    print("There is no solution..")
