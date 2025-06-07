@@ -43,5 +43,5 @@ if __name__ == '__main__':
     print(f'\nNumber of characters: {num_chars}')
     
     # Call output_without_whitespace() to display the string
-    # with all spaces and tabs removed
+    # with all spaces and tabs removed.
     output_without_whitespace(user_input)
