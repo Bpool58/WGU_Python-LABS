@@ -25,7 +25,7 @@ def fibonacci(n):
     prev2 = 0  # Start with first number (0)
     prev1 = 1  # Start with second number (1)
     
-    # Calculate next numbers up to position n
+    # Calculate next numbers up to position n.
     for i in range(2, n + 1):
         current = prev1 + prev2
         prev2 = prev1
