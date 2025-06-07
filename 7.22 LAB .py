@@ -29,7 +29,7 @@ Output:
 Notes:
 - Each input number will be on a separate line
 - Output numbers should be on a single line with spaces between them
-- No space should appear after the last number
+- No space should appear after the last number.
 """
 
 
