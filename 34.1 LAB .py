@@ -7,7 +7,7 @@ Output the total distance traveled to two decimal places given the following mil
 Employee A: 15.62 miles
 Employee B: 41.85 miles
 Employee C: 32.67 miles
-The solution output should be in the format
+The solution output should be in the format:
 
 Distance: total_miles_traveled miles
 Sample Input/Output:
