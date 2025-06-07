@@ -32,7 +32,7 @@ if temperature >= 212:
     # For temperatures at or above 212°F
     print("Boiling")
     
-    # Special case: exactly 212°F needs safety warning
+    # Special case: exactly 212°F needs safety warning.
     if temperature == 212:
         print("Caution: Hot!")
 
