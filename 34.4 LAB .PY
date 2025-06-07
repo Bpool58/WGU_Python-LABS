@@ -15,7 +15,7 @@ Input: Three integers representing:
 Output: Area of trapezoid in square meters (as a float)
 """
 
-# Get the first base measurement (b1) from user
+# Get the first base measurement (b1) from user.
 # Convert the input string to integer using int()
 b1 = int(input())
 
