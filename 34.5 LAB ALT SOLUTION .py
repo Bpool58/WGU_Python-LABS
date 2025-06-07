@@ -22,7 +22,7 @@ print(f"Float: {total:.1f}")
 
 
 
-#third output: sum of five inputs converted to STRING values (concatenate)
+#third output: sum of five inputs converted to STRING values (concatenate).
 
 print(f"String: {user_num1}{user_num2}{user_num3}{user_num4}{user_num5}")
 
