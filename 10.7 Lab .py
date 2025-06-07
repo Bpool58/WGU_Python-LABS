@@ -1,4 +1,4 @@
-# This program counts how many times a specific character appears in a phrase
+# This program counts how many times a specific character appears in a phrase.
 # Input format example: "n Monday" (character followed by space, then phrase)
 
 # Step 1: Get input from the user
