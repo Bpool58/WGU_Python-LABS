@@ -39,7 +39,7 @@ try:
     print(framework_name)
 
 # If any error occurs (like index out of range or invalid input), 
-# the except block will run
+# the except block will run.
 except:
     # Print "Error" for any error cases
     print("Error")
