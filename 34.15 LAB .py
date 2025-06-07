@@ -12,5 +12,5 @@ human_age = pigAge_converter(pig_age)
 
 # Format and print the output string
 # Using f-string to embed the values of pig_age and human_age in the output string
-# Output format: "<pig_age> is <human_age> in human years"
+# Output format: "<pig_age> is <human_age> in human years."
 print(f"{pig_age} is {human_age} in human years")
