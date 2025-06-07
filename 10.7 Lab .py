@@ -1,7 +1,7 @@
 # This program counts how many times a specific character appears in a phrase
 # Input format example: "n Monday" (character followed by space, then phrase)
 
-# Step 1: Get input from user
+# Step 1: Get input from the user
 # The input will be a character, followed by a space, then a phrase
 user_input = input()
 
