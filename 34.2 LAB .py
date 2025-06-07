@@ -40,7 +40,7 @@ pounds = total_pounds % 2000   # Use modulo to get remainder pounds
 # Step 4: Calculate remaining ounces
 ounces = ounces % 16          # Use modulo to get remainder ounces
 
-# Print results in required format
+# Print results in required format.
 print(f"Tons: {tons}")
 print(f"Pounds: {pounds}")
 print(f"Ounces: {ounces}")
