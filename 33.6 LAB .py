@@ -51,5 +51,5 @@ print(f'({phone_str[0:3]}) {phone_str[3:6]}-{phone_str[6:]}')
     #                     Example: "1212"
     # The rest of characters ( , ), - and spaces are string literals that appear as-is
     
-    # So if phone_str is "8005551212", this constructs:
+    # So.. if phone_str is "8005551212", this constructs:
     # (800) 555-1212
