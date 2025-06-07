@@ -41,7 +41,7 @@ positive_numbers.sort()
 
 # Step 5: Print each number with a space after it
 for i in range(len(positive_numbers)):
-    # i will be 0, then 1, then 2, then 3, then 4
+    # i will be 0, then 1, then 2, then 3, then 4.
     print(positive_numbers[i], end=' ')
     # First loop: prints "2 "
     # Second loop: prints "4 "
