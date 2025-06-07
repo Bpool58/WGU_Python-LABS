@@ -44,5 +44,5 @@ else:
                     print(f"{num_coins} Pennies")
                 else:
                     # Regular plural: just add 's'
-                    # Example: "Dollars", "Quarters", etc.
+                    # Example: "Dollars", "Quarters", etc..
                     print(f"{num_coins} {coin_name}s")
