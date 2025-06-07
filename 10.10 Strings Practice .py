@@ -192,6 +192,6 @@ def countUpper(mystring):
 # W, W, G, U are uppercase, so we expect 4
 print(countUpper('Welcome to WGU'))
 
-# Test 2: Count uppercase letters in 'Hello, Mary'
+# Test 2: Count uppercase letters in 'Hello, Mary'''
 # H, M are uppercase, so we expect 2
 print(countUpper('Hello, Mary'))
