@@ -50,5 +50,5 @@ num3 = int(input())  # Third number
 # min() compares all arguments and returns the smallest one
 smallest = min(num1, num2, num3)
 
-# Print the smallest number found
+# Print the smallest number found.
 print(smallest)
