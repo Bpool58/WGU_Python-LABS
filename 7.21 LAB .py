@@ -29,7 +29,7 @@ def int_to_reverse_binary(integer_value):
         integer_value = integer_value // 2
 
     # When the loop ends, we have a reversed binary string in binary_str
-    return binary_str  # Return the reversed binary string to the caller
+    return binary_str  # Return the reversed binary string to the caller.
 
 
 # Define a function called `string_reverse` to reverse a given string
