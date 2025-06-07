@@ -41,7 +41,7 @@ element = various_data_types[index]
 # For example: if element is a tuple, type_of_element will be "tuple"
 type_of_element = type(element).__name__
 
-# Print the result using f-string formatting
+# Print the result using f-string formatting.
 # Format: "Element index: type"
 # For example: "Element 4: tuple"
 print(f"Element {index}: {type_of_element}")
