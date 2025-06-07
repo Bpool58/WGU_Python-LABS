@@ -35,7 +35,7 @@ number = int(input())
 # Calculate factorial of the input number using math.factorial()
 factorial_result = math.factorial(number)
 
-# Print the factorial result
+# Print the factorial result.
 print(factorial_result)
 
 # Check if factorial is greater than 100 and print the boolean result
