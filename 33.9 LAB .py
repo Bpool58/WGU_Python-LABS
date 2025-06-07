@@ -16,7 +16,7 @@ Ex: If the second integer is less than the first as in:
 5
 the output is:
 
-Second integer can't be less than the first.
+Second integer can't be less than the first..
 """
 
 
