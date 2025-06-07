@@ -9,7 +9,7 @@ purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "m
 Additionally, If fewer than ten items are purchased, the price is the full cost per item.
 If between ten and twenty items (inclusive) are purchased, the purchase gets a 5% discount.
 If twenty-one or more items are purchased, the purchase gets a 10% discount.
-Output the chosen item and total cost of the purchase to two decimal places.
+Output the chosen item and total cost of the purchase to two decimal places..
 
 The solution output should be in the format
 """
