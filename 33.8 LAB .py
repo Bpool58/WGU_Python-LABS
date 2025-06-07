@@ -19,7 +19,7 @@ the output is:
 2 Dimes
 """
 
-# Initialize variables to store the count of each coin type
+# Initialize variables to store the count of each coin type.
 # We start with 0 for each type as we haven't calculated anything yet
 dollars = 0    # Will store number of dollar coins (100 cents each)
 quarters = 0   # Will store number of quarters (25 cents each)
