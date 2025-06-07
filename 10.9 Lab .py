@@ -1,7 +1,7 @@
 """
 Write a program that removes all non-alphabetic characters from input.
 ex: if the input is:
--Hello world$!
+-Hello world$!.
 the output should be:
 Helloworld
 """
