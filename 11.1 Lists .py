@@ -1,6 +1,6 @@
 user_input = input('Enter numbers:')
 
-tokens = user_input.split()  # Split into separate strings
+tokens = user_input.split()  # Split into separate strings.
 
 # Convert strings to integers
 nums = []
