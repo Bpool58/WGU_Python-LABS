@@ -24,7 +24,7 @@ num4 = int(input())
 num5 = int(input())
 
 # 1. Calculate sum as integers
-# Since inputs are already integers, just add them
+# Since inputs are already integers, just add them.
 integer_sum = num1 + num2 + num3 + num4 + num5
 
 # 2. Calculate sum as floats
