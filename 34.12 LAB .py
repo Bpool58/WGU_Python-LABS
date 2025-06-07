@@ -27,5 +27,5 @@ with open(filename, 'r') as file:
             # row[i + 1] is the value (at odd index)
             row_dict[row[i]] = row[i + 1]
             
-        # Print the dictionary for current row
+        # Print the dictionary for current row.
         print(row_dict)
