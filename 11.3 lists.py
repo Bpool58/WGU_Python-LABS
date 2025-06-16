@@ -16,8 +16,7 @@ max_num = None
 for num in nums:
     if (max_num == None) and (num % 2 == 0):
         max_num = num
-
-    elif (num > max_num) and (max_num % 2 == 0):
+    elif (max_num != None) and (num > max_num) and (num % 2 == 0):
         max_num = num
 print(max_num)
 
