@@ -28,7 +28,7 @@ Ex: If the input is:
 where 4 is the number of quarters, 3 is the number of dimes,
  2 is the number of nickels, and 1 is the number of pennies, the output is:
 Amount: $1.41
-For simplicity, assume input is non-negative......
+For simplicity, assume input is non-negative.......
 
 
 """""
